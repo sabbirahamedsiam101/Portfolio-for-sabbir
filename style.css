@@ -10,10 +10,17 @@
 header{
     background: #FFF8F3;
     width: 100%;
-    background-image: url('images/header_bg.png');
+    position: relative;
+    background-image: url('images/header_bg.png'),;
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-size: 600px;
+    background-size: 600px ;
+}
+.developer{
+    position: absolute;
+    left: 26px;
+    top: 20px;
+    width: 75px;
 }
 nav{
     padding: 32px 200px 30px 150px ;
@@ -278,4 +285,89 @@ padding: 18px 36px;
     font-weight: 400;
     line-height: 28px; /* 175% */
     padding-bottom: 20px;
+}
+.CV{
+    margin: 30px 50px;
+}
+.dawnloadCV{
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color:  #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 14px 22px;
+    margin: auto;
+    border: none;
+
+   
+}
+/* footer */
+footer{
+    padding: 70px 200px;
+    background: #FFF8F3;
+    display: flex;
+    gap: 40px;
+}
+
+.leftItem>h2{
+    color:#181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.leftItem>p{
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    margin-top: 20px;
+}
+.leftItem , .rightItem{
+    width: 50%;
+}
+.socialIcon{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    margin-top: 20px;
+}
+.socialIcon>i{
+  font-size: 24px;
+  color: #FD6E0A;
+
+}
+
+.rightItem >h2{
+    color:#181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+form > input{
+    margin-top: 20px;
+    padding: 18px;
+    width: 80%;
+    border: none;
+}
+#sms{
+    margin-top: 20px;
+    padding: 18px 18px 70px 18px ;
+    width: 80%;
+    border: none;
+    /* height: 100px; */
+    
+}
+.submitBtn{
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 13px 25px;
+    display: block;
+    margin-top: 20px;
+    border: none;
 }
